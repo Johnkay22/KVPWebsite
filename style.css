@@ -35,7 +35,7 @@ body {
     z-index: 1000;
     pointer-events: none;
     opacity: 0.05;
-    background-image: url('noise.png');
+    background-image: url('images/noise.png'); /* updated */
 }
 
 /* Typography */
@@ -168,7 +168,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('Untitled design_20250520_053957_0000.png');
+    background-image: url('images/Untitled design_20250520_053957_0000.png'); /* updated */
     background-size: cover;
     background-position: center;
     z-index: -1;
