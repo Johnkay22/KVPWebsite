@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0a0a0a">
+    <title>KAY VIDEO | Productions</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/index.js",
+                "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/ScrollTrigger.js",
+                "three": "https://cdn.jsdelivr.net/npm/three@0.156.1/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.156.1/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <header>
+        <div class="logo">KAY VIDEO PRODUCTIONS</div>
+        <div class="tagline"></div>
+    </header>
+
+    <main>
+        <section id="intro" class="panel">
+            <div class="panel-content">
+                <div class="wrestling-ring-bg"></div>
+                <div class="intro-text">
+                    <button class="contact-btn">GET IN TOUCH</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="watch" class="panel">
+            <div class="panel-content">
+                <h2>WATCH</h2>
+                <div class="video-categories">
+                    <div class="category" id="films">
+                        <h3>FILMS</h3>
+                        <div class="video-grid">
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('thumbnail1.png')">
+                                    <div class="video-overlay">
+                                        <span>CHAMPIONSHIP MATCH</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('thumbnail2.png')">
+                                    <div class="video-overlay">
+                                        <span>RINGSIDE INTERVIEW</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('thumbnail3.png')">
+                                    <div class="video-overlay">
+                                        <span>ENTRANCE COMPILATION</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('thumbnail4.png')">
+                                    <div class="video-overlay">
+                                        <span>TITLE CELEBRATION</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('thumbnail5.png')">
+                                    <div class="video-overlay">
+                                        <span>RIVALRY SPOTLIGHT</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('thumbnail6.png')">
+                                    <div class="video-overlay">
+                                        <span>FINISHING MOVES</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('wrestling ring.png')">
+                                    <div class="video-overlay">
+                                        <span>RINGSIDE DRAMA</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('band_in_ring.png')">
+                                    <div class="video-overlay">
+                                        <span>MUSIC SHOWCASE</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('video_background.png')">
+                                    <div class="video-overlay">
+                                        <span>STUDIO SESSIONS</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('boxing_ring_cameras.png')">
+                                    <div class="video-overlay">
+                                        <span>BEHIND THE SCENES</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('wrestling_ring_night')">
+                                    <div class="video-overlay">
+                                        <span>NIGHT SHOWDOWN</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('layer1.png')">
+                                    <div class="video-overlay">
+                                        <span>ATMOSPHERIC PROMO</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('layer2.png')">
+                                    <div class="video-overlay">
+                                        <span>MOTION HIGHLIGHTS</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-thumbnail" style="background-image: url('layer3.png')">
+                                    <div class="video-overlay">
+                                        <span>CINEMATIC SEQUENCE</span>
+                                        <div class="play-icon">►</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="panel">
+            <div class="panel-content">
+                <div class="about-container">
+                    <div class="about-text">
+                        <h2>ABOUT</h2>
+                        <p>Kay Video Productions is the creative studio of filmmaker John Kopanski, specializing in emotionally grounded, visually striking films and videos that leave an impression. With a background in both narrative storytelling and commercial work, John's projects are driven by the mentality to make it honest, and make it matter.</p>
+                        <p>His directing style is collaborative but precise, bringing together the best crew of talent that fits each specific project individually. If you're an artist, a brand, or a producer with an ambitious idea, KVP can bring it to life with precision, style, and absolutely zero bullshit.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="johnkprofile.jpeg" alt="John Kopanski - Filmmaker">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="panel">
+            <div class="panel-content">
+                <h2>CONTACT</h2>
+                <div class="email-display">
+                    <div class="email-label">REACH OUT TO</div>
+                    <a href="mailto:Kayvideoproductions@gmail.com" class="email-address">Kayvideoproductions@gmail.com</a>
+                    <div class="email-subtitle">Let's create something amazing together</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <nav class="scene-nav">
+        <div class="scene-indicator" data-scene="intro">INTRO</div>
+        <div class="scene-indicator" data-scene="watch">WATCH</div>
+        <div class="scene-indicator" data-scene="about">ABOUT</div>
+        <div class="scene-indicator" data-scene="contact">CONTACT</div>
+    </nav>
+
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-container">
+                <iframe id="youtubePlayer" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
